@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .btn_{
+  width: 268px;
+  height: 48px;
+  background-color: rgb(224, 224, 224);
+  color: rgb(0, 0, 0);
+} */
+
+
+.nav-link:hover {
+  background-color: green;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 0.9rem;
+}
+.price {
+  color: green;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.card {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ .myself_md {
+  display: block;
+ }
+ .myself_md .myself_text h1,  .myself_md .myself_text p{
+  width: 100% !important;
+ }
+}
+
+@media screen and (max-width: 768px) {
+  .myself {
+   display: none;
+  }
+  
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .myself_md {
+   display: none;
+  }
+  .img{
+    width: auto;
+  }
+ }
+
+ 
+@media screen and (min-width: 768px) {
+  .myself {
+   display: block;
+  }
+  
+ }
